@@ -1,0 +1,56 @@
+[
+  {
+    "id": "makita-kit-dk1801",
+    "name": "Kit Parafusadeira e Furadeira Makita",
+    "description": "O presente ideal para o homem 'faz-tudo'. Maleta com duas ferramentas essenciais, garantindo potência e durabilidade para projetos em casa. Produto de alto valor.",
+    "price": 699.9,
+    "store": "amazon",
+    "affiliate_url": "https://link-afiliado-makita-amazon.com.br/1",
+    "images": ["/products/relogio.webp", "/products/relogio-01.webp"]
+  },
+  {
+    "id": "katana-decorativa-samurai",
+    "name": "Katana Decorativa Samurai - Aço Carbono",
+    "description": "Uma peça de colecionador impressionante para o escritório ou sala. Foco em detalhes e acabamento de alta qualidade, item de hobby.",
+    "price": 289.5,
+    "store": "magalu",
+    "affiliate_url": "https://link-afiliado-katana-magalu.com.br/2",
+    "images": ["/products/katana-decorativa-samurai-1.jpg"]
+  },
+  {
+    "id": "caixa-ferramentas-tramontina-100p",
+    "name": "Caixa de Ferramentas Tramontina (100 Peças)",
+    "description": "Completa e organizada. Perfeita para quem está montando a primeira oficina ou precisa de um upgrade no arsenal doméstico. Qualidade Tramontina.",
+    "price": 179.99,
+    "store": "leroy",
+    "affiliate_url": "https://link-afiliado-tramontina-leroy.com.br/3",
+    "images": ["/products/caixa-ferramentas-tramontina-100p-1.jpg"]
+  },
+  {
+    "id": "jogo-copos-whisky-cristal",
+    "name": "Jogo de 6 Copos de Whisky em Cristal Premium",
+    "description": "Um presente elegante para quem aprecia bebidas finas. Design robusto e sofisticado para noites de descanso. Um clássico.",
+    "price": 129.9,
+    "store": "amazon",
+    "affiliate_url": "https://link-afiliado-copos-amazon.com.br/4",
+    "images": ["/products/jogo-copos-whisky-cristal-1.jpg"]
+  },
+  {
+    "id": "kit-barbeiro-vintage",
+    "name": "Kit Barbeiro Profissional Vintage",
+    "description": "Presente de cuidados pessoais com estilo. Inclui navalha, pincel e sabão premium, para um ritual de barbear tradicional e de alta qualidade.",
+    "price": 320.0,
+    "store": "magalu",
+    "affiliate_url": "https://link-afiliado-barbeiro-magalu.com.br/5",
+    "images": ["/products/kit-barbeiro-vintage-1.jpg"]
+  },
+  {
+    "id": "drone-camera-hd-iniciante",
+    "name": "Mini Drone com Câmera HD (Para Iniciantes)",
+    "description": "Ideal para quem quer começar no hobby de drones. Fácil de pilotar e com boa qualidade de imagem para vídeos e fotos aéreas.",
+    "price": 499.0,
+    "store": "amazon",
+    "affiliate_url": "https://link-afiliado-drone-amazon.com.br/6",
+    "images": ["/products/drone-camera-hd-iniciante-1.jpg"]
+  }
+]

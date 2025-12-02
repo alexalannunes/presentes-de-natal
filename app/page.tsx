@@ -1,65 +1,86 @@
-import Image from "next/image";
+// app/page.tsx
+import { Container } from "@/components/layout/container";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Gift, Sparkles, Wrench } from "lucide-react";
+import Link from "next/link";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <Container>
+      <div className="text-center py-16 sm:py-24">
+        {/* Título Principal */}
+        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-foreground mb-4">
+          <span className="text-primary">O Presente Ideal</span> para{" "}
+          <span className="decoration-wavy decoration-primary underline">
+            Ele
+          </span>{" "}
+          neste Natal 🎄
+        </h1>
+
+        {/* Subtítulo: Focado no Público-Alvo (Mulheres) */}
+        <p className="max-w-3xl mx-auto text-xl text-muted-foreground mb-8">
+          Cansada de presentear com meias ou perfumes? Nós resolvemos o seu
+          problema! Curadoria especializada em{" "}
+          <strong className="font-semibold">ferramentas</strong>,{" "}
+          <strong className="font-semibold">hobbies</strong> e{" "}
+          <strong className="font-semibold">tecnologia</strong>, feita sob
+          medida para homens que amam projetos e aventura.
+        </p>
+
+        {/* CTA Principal */}
+        <div className="flex justify-center space-x-4 mb-16">
+          <Link href="/products" passHref>
+            <Button
+              size="lg"
+              className="rounded-full shadow-gift-hover transition-shadow duration-300 text-lg"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              Explorar o Catálogo Agora <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
+        </div>
+
+        {/* Seção de Benefícios */}
+        <div className="grid md:grid-cols-3 gap-8 text-left mt-16">
+          <div className="p-6 border border-border rounded-xl bg-card shadow-gift">
+            <Wrench className="h-8 w-8 text-primary mb-3" />
+            <h3 className="font-semibold text-lg mb-2">Foco em Valor</h3>
+            <p className="text-muted-foreground">
+              De Makitas a Katanas: só presentes com alto valor percebido e
+              utilidade real, perfeitos para homens com hobbies específicos.
+            </p>
+          </div>
+
+          <div className="p-6 border border-border rounded-xl bg-card shadow-gift">
+            <Gift className="h-8 w-8 text-primary mb-3" />
+            <h3 className="font-semibold text-lg mb-2">Simples de Usar</h3>
+            <p className="text-muted-foreground">
+              Com nosso filtro fácil, você encontra o presente ideal por faixa
+              de preço ou loja em segundos, sem complicação.
+            </p>
+          </div>
+
+          <div className="p-6 border border-border rounded-xl bg-card shadow-gift">
+            <Sparkles className="h-8 w-8 text-primary mb-3" />
+            <h3 className="font-semibold text-lg mb-2">Controle Total</h3>
+            <p className="text-muted-foreground">
+              O site é ultrarrápido e construído para campanhas de afiliados.
+              Links rastreados e URLs prontas para o seu tráfego pago.
+            </p>
+          </div>
+        </div>
+
+        {/* CTA Principal */}
+        <div className="flex justify-center space-x-4 mt-16 md:hidden">
+          <Link href="/products" passHref>
+            <Button
+              size="lg"
+              className="rounded-full shadow-gift-hover transition-shadow duration-300 text-lg"
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              Explorar o Catálogo Agora <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </div>
+    </Container>
   );
 }
