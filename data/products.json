@@ -6,7 +6,10 @@
     "price": 699.9,
     "store": "amazon",
     "affiliate_url": "https://link-afiliado-makita-amazon.com.br/1",
-    "images": ["/products/relogio.webp", "/products/relogio-01.webp"]
+    "images": [
+      "https://picsum.photos/seed/tool1/400/300",
+      "https://picsum.photos/seed/tool2/400/300"
+    ]
   },
   {
     "id": "katana-decorativa-samurai",
@@ -15,7 +18,7 @@
     "price": 289.5,
     "store": "magalu",
     "affiliate_url": "https://link-afiliado-katana-magalu.com.br/2",
-    "images": ["/products/katana-decorativa-samurai-1.jpg"]
+    "images": ["https://picsum.photos/seed/sword1/400/300"]
   },
   {
     "id": "caixa-ferramentas-tramontina-100p",
@@ -24,7 +27,7 @@
     "price": 179.99,
     "store": "leroy",
     "affiliate_url": "https://link-afiliado-tramontina-leroy.com.br/3",
-    "images": ["/products/caixa-ferramentas-tramontina-100p-1.jpg"]
+    "images": ["https://picsum.photos/seed/toolbox/400/300"]
   },
   {
     "id": "jogo-copos-whisky-cristal",
@@ -33,7 +36,7 @@
     "price": 129.9,
     "store": "amazon",
     "affiliate_url": "https://link-afiliado-copos-amazon.com.br/4",
-    "images": ["/products/jogo-copos-whisky-cristal-1.jpg"]
+    "images": ["https://picsum.photos/seed/whisky/400/300"]
   },
   {
     "id": "kit-barbeiro-vintage",
@@ -42,7 +45,7 @@
     "price": 320.0,
     "store": "magalu",
     "affiliate_url": "https://link-afiliado-barbeiro-magalu.com.br/5",
-    "images": ["/products/kit-barbeiro-vintage-1.jpg"]
+    "images": ["https://picsum.photos/seed/shave/400/300"]
   },
   {
     "id": "drone-camera-hd-iniciante",
@@ -51,6 +54,6 @@
     "price": 499.0,
     "store": "amazon",
     "affiliate_url": "https://link-afiliado-drone-amazon.com.br/6",
-    "images": ["/products/drone-camera-hd-iniciante-1.jpg"]
+    "images": ["https://picsum.photos/seed/drone/400/300"]
   }
 ]

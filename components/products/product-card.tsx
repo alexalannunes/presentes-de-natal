@@ -57,7 +57,7 @@ export function ProductCard({ product }: ProductCardProps) {
     <Card
       // Aplica a sombra suave e transição de hover
       // O grupo é essencial para mostrar os botões de navegação no hover do slider
-      className="rounded-xl overflow-hidden shadow-gift hover:shadow-gift-hover transition-all duration-300 group"
+      className="rounded-xl overflow-hidden shadow-gift pt-0 hover:shadow-gift-hover transition-all duration-300 group"
     >
       <div className="p-0 border-b border-border/50">
         {/* Substitui a imagem estática pelo Slider */}
