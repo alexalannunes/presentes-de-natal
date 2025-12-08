@@ -18,7 +18,9 @@
     "price": 289.5,
     "store": "magalu",
     "affiliate_url": "https://link-afiliado-katana-magalu.com.br/2",
-    "images": ["https://picsum.photos/seed/sword1/400/300"]
+    "images": [
+      "https://picsum.photos/seed/sword1/400/300"
+    ]
   },
   {
     "id": "caixa-ferramentas-tramontina-100p",
@@ -27,7 +29,9 @@
     "price": 179.99,
     "store": "leroy",
     "affiliate_url": "https://link-afiliado-tramontina-leroy.com.br/3",
-    "images": ["https://picsum.photos/seed/toolbox/400/300"]
+    "images": [
+      "https://picsum.photos/seed/toolbox/400/300"
+    ]
   },
   {
     "id": "jogo-copos-whisky-cristal",
@@ -36,24 +40,87 @@
     "price": 129.9,
     "store": "amazon",
     "affiliate_url": "https://link-afiliado-copos-amazon.com.br/4",
-    "images": ["https://picsum.photos/seed/whisky/400/300"]
+    "images": [
+      "https://picsum.photos/seed/whisky/400/300"
+    ]
   },
   {
     "id": "kit-barbeiro-vintage",
     "name": "Kit Barbeiro Profissional Vintage",
     "description": "Presente de cuidados pessoais com estilo. Inclui navalha, pincel e sabão premium, para um ritual de barbear tradicional e de alta qualidade.",
-    "price": 320.0,
+    "price": 320,
     "store": "magalu",
     "affiliate_url": "https://link-afiliado-barbeiro-magalu.com.br/5",
-    "images": ["https://picsum.photos/seed/shave/400/300"]
+    "images": [
+      "https://picsum.photos/seed/shave/400/300"
+    ]
   },
   {
     "id": "drone-camera-hd-iniciante",
     "name": "Mini Drone com Câmera HD (Para Iniciantes)",
     "description": "Ideal para quem quer começar no hobby de drones. Fácil de pilotar e com boa qualidade de imagem para vídeos e fotos aéreas.",
-    "price": 499.0,
+    "price": 499,
     "store": "amazon",
     "affiliate_url": "https://link-afiliado-drone-amazon.com.br/6",
-    "images": ["https://picsum.photos/seed/drone/400/300"]
+    "images": [
+      "https://picsum.photos/seed/drone/400/300"
+    ]
+  },
+  {
+    "id": "fone-bluetooth-sony",
+    "name": "Headphone Sony Noise Cancelling Premium",
+    "description": "Perfeito para quem trabalha em casa ou adora música. Cancelamento de ruído ativo e som impecável. Um presente de alto nível.",
+    "price": 1599,
+    "store": "fastshop",
+    "affiliate_url": "https://link-afiliado-fastshop-fone.com.br/7",
+    "images": [
+      "https://picsum.photos/seed/tech1/400/300"
+    ]
+  },
+  {
+    "id": "jaqueta-termica-trekking",
+    "name": "Jaqueta Térmica Impermeável para Trekking",
+    "description": "Para o aventureiro que ama trilhas e camping. Leve, quente e resistente à água. Ideal para quem valoriza esportes e natureza.",
+    "price": 449,
+    "store": "decathlon",
+    "affiliate_url": "https://link-afiliado-decathlon-jaqueta.com.br/8",
+    "images": [
+      "https://picsum.photos/seed/outdoor1/400/300",
+      "https://picsum.photos/seed/outdoor2/400/300"
+    ]
+  },
+  {
+    "id": "mochila-antifurto-usb",
+    "name": "Mochila Antifurto para Notebook com USB",
+    "description": "Presente funcional para o profissional moderno. Segura, espaçosa e com porta USB para carregar dispositivos em movimento.",
+    "price": 199.9,
+    "store": "amazon",
+    "affiliate_url": "https://link-afiliado-amazon-mochila.com.br/9",
+    "images": [
+      "https://picsum.photos/seed/bag1/400/300"
+    ]
+  },
+  {
+    "id": "kit-jardinagem-premium",
+    "name": "Kit Completo para Jardinagem Premium",
+    "description": "Para o hobby de jardinagem. Contém ferramentas de aço inoxidável e luvas de couro. Um toque de sofisticação para a área externa.",
+    "price": 250,
+    "store": "leroy",
+    "affiliate_url": "https://link-afiliado-leroy-jardim.com.br/10",
+    "images": [
+      "https://picsum.photos/seed/garden1/400/300",
+      "https://picsum.photos/seed/garden2/400/300"
+    ]
+  },
+  {
+    "id": "espada-samurai-katana",
+    "name": "Espada Samurai Katana",
+    "description": "Espada Samurai Katana Wild Wakizashi Zoro Cosplay Com Fio Corte Afiada + Bainha Couro",
+    "store": "mercadolivre",
+    "affiliate_url": "https://www.mercadolivre.com.br/espada-samurai-katana-wild-wakizashi-zoro-cosplay-com-fio-corte-afiada-bainha-couro/p/MLB53213416#reco_item_pos=2&reco_backend=item_decorator&reco_backend_type=function&reco_client=home_items-decorator-legacy&reco_id=b4cc9542-aa9b-4b5c-8365-d272efb1af43&reco_model=&c_id=/home/navigation-recommendations-seed/element&c_uid=d2dfb2c6-4cce-4bc0-8314-d4b4d7c943cc&da_id=navigation&da_position=2&id_origin=/home/dynamic_access&da_sort_algorithm=ranker",
+    "price": 48,
+    "images": [
+      "/products/espada-samurai-katana.webp"
+    ]
   }
 ]
