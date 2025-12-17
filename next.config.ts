@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
       {
         hostname: "picsum.photos",
       },
+      {
+        hostname: "http2.mlstatic.com",
+      },
     ],
   },
 };

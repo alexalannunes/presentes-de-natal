@@ -1,126 +1,36 @@
 [
   {
-    "id": "makita-kit-dk1801",
-    "name": "Kit Parafusadeira e Furadeira Makita",
-    "description": "O presente ideal para o homem 'faz-tudo'. Maleta com duas ferramentas essenciais, garantindo potência e durabilidade para projetos em casa. Produto de alto valor.",
-    "price": 699.9,
-    "store": "amazon",
-    "affiliate_url": "https://mercadolivre.com/sec/1E8SERp",
+    "id": "conjunto-de-facas-para-churrascocozinha-inox-com-maleta-8pc",
+    "name": "Conjunto De Facas Para Churrasco/cozinha Inox Com Maleta 8pç",
+    "description": "Kit de churrasco e cozinha, um kit completo e versátil que atende tanto a cozinheiros casuais quanto a chefs profissionais.",
+    "store": "Mercado Livre",
+    "affiliate_url": "https://produto.mercadolivre.com.br/MLB-5649338832-kit-churrasco-faca-utensilios-cozinha-churrasqueiro-bolsa-_JM#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_online_vpp_v2p&reco_model=coldstart_high_exposition&reco_client=vip-v2p&reco_item_pos=0&reco_backend_type=low_level&reco_id=a9e72a9f-bfe1-4978-9da7-5fd7ec10abae&wid=MLB5649338832&sid=recos",
+    "price": 59.39,
     "images": [
-      "https://picsum.photos/seed/tool1/400/300",
-      "https://picsum.photos/seed/tool2/400/300"
+      "https://http2.mlstatic.com/D_NQ_NP_2X_722095-MLB80434273168_112024-F-conjunto-de-facas-para-churrascocozinha-inox-com-maleta-8pc.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_802634-MLB81704448724_012025-F-conjunto-de-facas-para-churrascocozinha-inox-com-maleta-8pc.webp"
     ]
   },
   {
-    "id": "katana-decorativa-samurai",
-    "name": "Katana Decorativa Samurai - Aço Carbono",
-    "description": "Uma peça de colecionador impressionante para o escritório ou sala. Foco em detalhes e acabamento de alta qualidade, item de hobby.",
-    "price": 289.5,
-    "store": "magalu",
-    "affiliate_url": "https://link-afiliado-katana-magalu.com.br/2",
+    "id": "jogo-de-xicara-pires-de-cafe-de-porcelana-12-pecas-luxo",
+    "name": "Jogo De Xicara + Pires De Café De Porcelana 12 Peças Luxo",
+    "description": "Kit Elegância do Café - 12 Peças em Cerâmica Porcelanizada",
+    "store": "Mercado Livre",
+    "affiliate_url": "https://produto.mercadolivre.com.br/MLB-5970280618-jogo-de-xicara-pires-de-cafe-de-porcelana-12-pecas-luxo-_JM#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_online_vpp_v2p&reco_model=coldstart_low_exposition&reco_client=vip-v2p&reco_item_pos=4&reco_backend_type=low_level&reco_id=0b244083-f59f-4a91-9a47-e1af7c5bb1cd&wid=MLB5970280618&sid=recos",
+    "price": 83.99,
     "images": [
-      "https://picsum.photos/seed/sword1/400/300"
+      "https://http2.mlstatic.com/D_NQ_NP_2X_621028-MLB99015826642_112025-F-jogo-de-xicara-pires-de-cafe-de-porcelana-12-pecas-luxo.webp"
     ]
   },
   {
-    "id": "caixa-ferramentas-tramontina-100p",
-    "name": "Caixa de Ferramentas Tramontina (100 Peças)",
-    "description": "Completa e organizada. Perfeita para quem está montando a primeira oficina ou precisa de um upgrade no arsenal doméstico. Qualidade Tramontina.",
-    "price": 179.99,
-    "store": "leroy",
-    "affiliate_url": "https://link-afiliado-tramontina-leroy.com.br/3",
+    "id": "kit-faqueiro-dourado-luxo-jogo-talheres-inox-24pcs-maleta",
+    "name": "Kit Faqueiro Dourado Luxo Jogo Talheres Inox 24pçs + Maleta",
+    "description": "Seja para uma refeição casual em casa ou um jantar refinado, o Kit Faqueiro Dourado Portátil eleva a experiência culinária a um novo patamar de elegância e sofisticação. Criado para os amantes da arte de receber bem, este conjunto é mais do que um utensílio de cozinha, é uma expressão de estilo e requinte.",
+    "store": "Mercado Livre",
+    "affiliate_url": "https://produto.mercadolivre.com.br/MLB-5948211516-kit-faqueiro-dourado-luxo-jogo-talheres-inox-24pcs-maleta-_JM#polycard_client=recommendations_vip&reco_backend=ranker_compl_search_context_marketplace&reco_model=comple_search_context_trigger&reco_client=vip&reco_item_pos=3&reco_backend_type=low_level&reco_id=d7b05713-d475-4cde-b64d-baacce5a73d2&wid=MLB5948211516&sid=recos",
+    "price": 104.97,
     "images": [
-      "https://picsum.photos/seed/toolbox/400/300"
-    ]
-  },
-  {
-    "id": "jogo-copos-whisky-cristal",
-    "name": "Jogo de 6 Copos de Whisky em Cristal Premium",
-    "description": "Um presente elegante para quem aprecia bebidas finas. Design robusto e sofisticado para noites de descanso. Um clássico.",
-    "price": 129.9,
-    "store": "amazon",
-    "affiliate_url": "https://link-afiliado-copos-amazon.com.br/4",
-    "images": [
-      "https://picsum.photos/seed/whisky/400/300"
-    ]
-  },
-  {
-    "id": "kit-barbeiro-vintage",
-    "name": "Kit Barbeiro Profissional Vintage",
-    "description": "Presente de cuidados pessoais com estilo. Inclui navalha, pincel e sabão premium, para um ritual de barbear tradicional e de alta qualidade.",
-    "price": 320,
-    "store": "magalu",
-    "affiliate_url": "https://link-afiliado-barbeiro-magalu.com.br/5",
-    "images": [
-      "https://picsum.photos/seed/shave/400/300"
-    ]
-  },
-  {
-    "id": "drone-camera-hd-iniciante",
-    "name": "Mini Drone com Câmera HD (Para Iniciantes)",
-    "description": "Ideal para quem quer começar no hobby de drones. Fácil de pilotar e com boa qualidade de imagem para vídeos e fotos aéreas.",
-    "price": 499,
-    "store": "amazon",
-    "affiliate_url": "https://link-afiliado-drone-amazon.com.br/6",
-    "images": [
-      "https://picsum.photos/seed/drone/400/300"
-    ]
-  },
-  {
-    "id": "fone-bluetooth-sony",
-    "name": "Headphone Sony Noise Cancelling Premium",
-    "description": "Perfeito para quem trabalha em casa ou adora música. Cancelamento de ruído ativo e som impecável. Um presente de alto nível.",
-    "price": 1599,
-    "store": "fastshop",
-    "affiliate_url": "https://link-afiliado-fastshop-fone.com.br/7",
-    "images": [
-      "https://picsum.photos/seed/tech1/400/300"
-    ]
-  },
-  {
-    "id": "jaqueta-termica-trekking",
-    "name": "Jaqueta Térmica Impermeável para Trekking",
-    "description": "Para o aventureiro que ama trilhas e camping. Leve, quente e resistente à água. Ideal para quem valoriza esportes e natureza.",
-    "price": 449,
-    "store": "decathlon",
-    "affiliate_url": "https://link-afiliado-decathlon-jaqueta.com.br/8",
-    "images": [
-      "https://picsum.photos/seed/outdoor1/400/300",
-      "https://picsum.photos/seed/outdoor2/400/300"
-    ]
-  },
-  {
-    "id": "mochila-antifurto-usb",
-    "name": "Mochila Antifurto para Notebook com USB",
-    "description": "Presente funcional para o profissional moderno. Segura, espaçosa e com porta USB para carregar dispositivos em movimento.",
-    "price": 199.9,
-    "store": "amazon",
-    "affiliate_url": "https://link-afiliado-amazon-mochila.com.br/9",
-    "images": [
-      "https://picsum.photos/seed/bag1/400/300"
-    ]
-  },
-  {
-    "id": "kit-jardinagem-premium",
-    "name": "Kit Completo para Jardinagem Premium",
-    "description": "Para o hobby de jardinagem. Contém ferramentas de aço inoxidável e luvas de couro. Um toque de sofisticação para a área externa.",
-    "price": 250,
-    "store": "leroy",
-    "affiliate_url": "https://link-afiliado-leroy-jardim.com.br/10",
-    "images": [
-      "https://picsum.photos/seed/garden1/400/300",
-      "https://picsum.photos/seed/garden2/400/300"
-    ]
-  },
-  {
-    "id": "espada-samurai-katana",
-    "name": "Espada Samurai Katana",
-    "description": "Espada Samurai Katana Wild Wakizashi Zoro Cosplay Com Fio Corte Afiada + Bainha Couro",
-    "store": "mercadolivre",
-    "affiliate_url": "https://www.mercadolivre.com.br/espada-samurai-katana-wild-wakizashi-zoro-cosplay-com-fio-corte-afiada-bainha-couro/p/MLB53213416#reco_item_pos=2&reco_backend=item_decorator&reco_backend_type=function&reco_client=home_items-decorator-legacy&reco_id=b4cc9542-aa9b-4b5c-8365-d272efb1af43&reco_model=&c_id=/home/navigation-recommendations-seed/element&c_uid=d2dfb2c6-4cce-4bc0-8314-d4b4d7c943cc&da_id=navigation&da_position=2&id_origin=/home/dynamic_access&da_sort_algorithm=ranker",
-    "price": 48,
-    "images": [
-      "/products/espada-samurai-katana.webp"
+      "https://http2.mlstatic.com/D_NQ_NP_2X_893465-MLB98319085532_112025-F-kit-faqueiro-dourado-luxo-jogo-talheres-inox-24pcs-maleta.webp"
     ]
   }
 ]
