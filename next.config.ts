@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       {
         hostname: "http2.mlstatic.com",
       },
+      {
+        hostname: "down-br.img.susercontent.com",
+      },
     ],
   },
 };

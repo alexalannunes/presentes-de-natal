@@ -1,5 +1,6 @@
 // components/products/ProductList.tsx (REFATORADO)
 
+import { generateSlug } from "@/lib/slug";
 import { ProductCard } from "./product-card"; // Card Grande (Desktop/Tablet)
 import { ProductListItem } from "./product-list-item"; // Card Pequeno (Mobile)
 
@@ -36,14 +37,14 @@ export function ProductList({ products }: ProductListProps) {
       {/* 1. LAYOUT MOBILE (max-width: 640px) */}
       <div className="sm:hidden space-y-4">
         {products.map((product) => (
-          <ProductListItem key={product.id} product={product} />
+          <ProductListItem key={generateSlug(product.name)} product={product} />
         ))}
       </div>
 
       {/* 2. LAYOUT DESKTOP/TABLET (min-width: 640px) */}
       <div className="hidden sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
+          <ProductCard key={generateSlug(product.name)} product={product} />
         ))}
       </div>
     </>
