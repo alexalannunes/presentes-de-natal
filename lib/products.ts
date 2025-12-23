@@ -2,7 +2,6 @@
 
 // Define a estrutura de um produto, usada em todo o catálogo.
 export interface Product {
-  id: string;
   name: string;
   description: string;
   price: number;
