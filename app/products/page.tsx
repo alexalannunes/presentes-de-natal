@@ -28,7 +28,9 @@ export default async function ProductsPage({
 }: ProductsPageProps) {
   const allProducts: Product[] = productsData as Product[];
   const search = await searchParams;
-  const filteredProducts = filterProducts(allProducts, search);
+  const filteredProducts = filterProducts(allProducts, search).sort(
+    (a, b) => a.price - b.price
+  );
   const allStores = allProducts.map((p) => p.store);
   const availableStores = Array.from(new Set(allStores));
 

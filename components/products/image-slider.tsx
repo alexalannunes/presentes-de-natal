@@ -40,7 +40,7 @@ export function ImageSlider({ images, name }: ImageSliderProps) {
         fill
         priority={currentImageIndex === 0} // Apenas a primeira imagem deve ter prioridade
         sizes="(max-width: 768px) 100vw, 33vw"
-        className="object-cover transition-all duration-300"
+        className="object-contain transition-all duration-300"
       />
 
       {/* Controles de Navegação (Apenas se houver mais de 1 imagem) */}
