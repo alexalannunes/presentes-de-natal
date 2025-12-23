@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils";
 
 // Definindo o tipo Product localmente (ou importando de @/lib/products)
 interface Product {
-  id: string;
   name: string;
   description: string;
   price: number;

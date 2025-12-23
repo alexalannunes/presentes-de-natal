@@ -5,7 +5,6 @@ import { ProductCard } from "./product-card"; // Card Grande (Desktop/Tablet)
 import { ProductListItem } from "./product-list-item"; // Card Pequeno (Mobile)
 
 interface Product {
-  id: string;
   name: string;
   description: string;
   price: number;

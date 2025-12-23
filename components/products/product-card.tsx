@@ -18,7 +18,6 @@ import { ImageSlider } from "./image-slider";
 // Se não existir, você deve usar a interface Product localmente ou criá-lo.
 // Importando localmente aqui para garantir que o card funcione:
 interface Product {
-  id: string;
   name: string;
   description: string;
   price: number;
