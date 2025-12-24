@@ -46,6 +46,11 @@ export function ProductListItem({ product }: ProductListItemProps) {
         price: product.price,
         store: product.store,
       });
+      window.fbq("track", "InitiateCheckout", {
+        content_name: product.name,
+        value: product.price,
+        currency: "BRL",
+      });
     }
   };
 
