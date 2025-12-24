@@ -39,6 +39,14 @@ export function ProductListItem({ product }: ProductListItemProps) {
       store: product.store,
       event_category: "Affiliate",
     });
+
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("trackCustom", "ProductClick", {
+        product_name: product.name,
+        price: product.price,
+        store: product.store,
+      });
+    }
   };
 
   return (
