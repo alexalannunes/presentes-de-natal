@@ -34,7 +34,7 @@ export function ProductList({ products }: ProductListProps) {
   return (
     <>
       {/* 1. LAYOUT MOBILE (max-width: 640px) */}
-      <div className="sm:hidden space-y-4">
+      <div className="sm:hidden grid grid-cols-2 gap-2 space-y-4">
         {products.map((product) => (
           <ProductListItem key={generateSlug(product.name)} product={product} />
         ))}

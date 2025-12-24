@@ -56,58 +56,58 @@ export function ProductListItem({ product }: ProductListItemProps) {
 
   return (
     <Card
-      // Layout Horizontal, Sombras Suaves e Bordas Arredondadas
       className={cn(
-        "flex flex-col rounded-xl gap-2 overflow-hidden shadow-gift hover:shadow-gift-hover transition-all duration-300 py-2",
-        // No mobile, define a largura máxima e centraliza
-        "max-w-md mx-auto"
+        "flex flex-col rounded-xl overflow-hidden shadow-gift hover:shadow-gift-hover transition-all duration-300",
+        // Largura controlada para não ficar gigante no mobile
+        "max-w-[280px] mx-auto h-full border border-border/50"
       )}
     >
-      {/* 1. SEÇÃO PRINCIPAL (HORIZONTAL: Imagem + Detalhes) */}
-      <div className="flex flex-row py-0 p-3 pb-0 flex-grow">
-        {/* 1.1. Imagem na Esquerda */}
-        <div className="w-[100px] h-[100px] flex-shrink-0 rounded-lg overflow-hidden border border-border">
-          <ImageSlider images={product.images} name={product.name} />
-        </div>
+      {/* 1. SEÇÃO DA IMAGEM (Topo) */}
+      <div className="w-full aspect-square flex-shrink-0 overflow-hidden bg-muted/20">
+        <ImageSlider images={product.images} name={product.name} />
+      </div>
 
-        {/* 1.2. Detalhes (à direita) */}
-        <div className="flex flex-col justify-start pl-3 flex-grow">
-          {/* Título e Descrição */}
-          <h3 className="text-base font-semibold line-clamp-2 mb-1">
-            {product.name}
-          </h3>
-          <p className="text-xs text-muted-foreground line-clamp-2">
-            {product.description}
-          </p>
-
-          {/* Preço e Loja (abaixo da descrição) */}
-          <div className="mt-1">
-            <span className="text-xl font-extrabold text-primary block leading-none">
-              {formatPrice(product.price)}
-            </span>
-            <span className="text-xs text-muted-foreground capitalize">
+      {/* 2. CONTEÚDO (Detalhes) */}
+      <div className="flex flex-col p-3 flex-grow">
+        {/* Loja e Preço no topo para leitura rápida */}
+        <div className="flex justify-between items-start mb-2">
+          <div className="flex flex-col">
+            <span className="text-xs text-muted-foreground capitalize font-medium">
               {product.store}
+            </span>
+            <span className="text-lg font-extrabold text-primary leading-tight">
+              {formatPrice(product.price)}
             </span>
           </div>
         </div>
-      </div>
 
-      {/* 2. SEÇÃO DE AÇÃO (BOTTOM: Botão Full Width) */}
-      <div className="p-2">
-        <Link
-          href={product.affiliate_url}
-          target="_blank"
-          onClick={handleAffiliateClick}
-          className="w-full"
-        >
-          <Button
-            size="sm"
-            className="rounded-full w-full shadow-md hover:shadow-lg transition-shadow"
+        {/* Título - Mantemos o line-clamp para não quebrar o layout */}
+        <h3 className="text-sm font-semibold line-clamp-2 mb-1 leading-snug h-[40px]">
+          {product.name}
+        </h3>
+
+        {/* Descrição - Opcional em cards verticais pequenos, mas mantida com fonte menor */}
+        <p className="text-[11px] text-muted-foreground line-clamp-2 mb-3">
+          {product.description}
+        </p>
+
+        {/* 3. BOTÃO DE AÇÃO (Sempre na base) */}
+        <div className="mt-auto pt-2">
+          <Link
+            href={product.affiliate_url}
+            target="_blank"
+            onClick={handleAffiliateClick}
+            className="w-full"
           >
-            Comprar Agora
-            <ShoppingBag className="ml-2 h-4 w-4" />
-          </Button>
-        </Link>
+            <Button
+              size="sm"
+              className="rounded-full w-full shadow-md hover:shadow-lg transition-shadow text-xs h-9"
+            >
+              Comprar Agora
+              <ShoppingBag className="ml-1.5 h-3.5 w-3.5" />
+            </Button>
+          </Link>
+        </div>
       </div>
     </Card>
   );
