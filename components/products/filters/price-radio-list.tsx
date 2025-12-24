@@ -4,6 +4,7 @@
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { DollarSign } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { gaEvent } from "@/lib/ga-event";
 
 const priceRanges = [
   { label: "Qualquer Preço", value: "todos" },
@@ -27,7 +28,7 @@ export function PriceRadioList() {
 
     if (newValue) {
       params.set("preco", newValue);
-      // gaEvent("filter_applied", { filter_type: "price", value: newValue });
+      gaEvent("filter_applied", { filter_type: "price", value: newValue });
     } else {
       params.delete("preco");
     }

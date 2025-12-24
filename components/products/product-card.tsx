@@ -13,6 +13,7 @@ import {
 import { ShoppingBag } from "lucide-react";
 // Importa o novo slider
 import { ImageSlider } from "./image-slider";
+import { gaEvent } from "@/lib/ga-event";
 
 // Importa o Product Type de um arquivo centralizado (lib/products.ts)
 // Se não existir, você deve usar a interface Product localmente ou criá-lo.
@@ -41,15 +42,14 @@ export function ProductCard({ product }: ProductCardProps) {
   // Handler para rastrear o clique no afiliado
   const handleAffiliateClick = () => {
     // GA: user clicked product card
-    // if (typeof window !== "undefined" && window.gtag) {
-    //    gaEvent('product_click', {
-    //        product_id: product.id,
-    //        product_name: product.name,
-    //        price: product.price,
-    //        store: product.store,
-    //        event_category: 'Affiliate',
-    //    });
-    // }
+    if (typeof window !== "undefined" && window.gtag) {
+      gaEvent("product_click", {
+        product_name: product.name,
+        price: product.price,
+        store: product.store,
+        event_category: "Affiliate",
+      });
+    }
   };
 
   return (

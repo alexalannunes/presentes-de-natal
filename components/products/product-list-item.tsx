@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/card";
 import { ShoppingBag } from "lucide-react";
 import { ImageSlider } from "./image-slider";
 import { cn } from "@/lib/utils";
+import { gaEvent } from "@/lib/ga-event";
 
 // Definindo o tipo Product localmente (ou importando de @/lib/products)
 interface Product {
@@ -32,7 +33,12 @@ const formatPrice = (price: number) => {
 export function ProductListItem({ product }: ProductListItemProps) {
   const handleAffiliateClick = () => {
     // Rastreamento GA (mantido nos comentários)
-    // gaEvent('product_click', { ... });
+    gaEvent("product_click", {
+      product_name: product.name,
+      price: product.price,
+      store: product.store,
+      event_category: "Affiliate",
+    });
   };
 
   return (

@@ -10,9 +10,9 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { DollarSign } from "lucide-react";
-// import { gaEvent } from "@/components/analytics/ga-events";
 import { FilterTriggerMobile } from "./filter-trigger-mobile";
 import { PriceRadioList } from "./price-radio-list"; // NOVO COMPONENTE
+import { gaEvent } from "@/lib/ga-event";
 
 const priceRanges = [
   { label: "Qualquer Preço", value: "todos" },
@@ -34,7 +34,7 @@ const handleFilterChange = (
 
   if (newValue) {
     params.set("preco", newValue);
-    // gaEvent("filter_applied", { filter_type: "price", value: newValue });
+    gaEvent("filter_applied", { filter_type: "price", value: newValue });
   } else {
     params.delete("preco");
   }

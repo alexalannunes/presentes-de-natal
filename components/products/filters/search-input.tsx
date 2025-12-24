@@ -2,10 +2,10 @@
 "use client";
 
 import { Input } from "@/components/ui/input";
+import { gaEvent } from "@/lib/ga-event";
 import { Search } from "lucide-react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { useDebouncedCallback } from "use-debounce";
-// import { gaEvent } from "@/components/analytics/ga-events";
 
 export function SearchInput() {
   const searchParams = useSearchParams();
@@ -16,8 +16,7 @@ export function SearchInput() {
     const params = new URLSearchParams(searchParams);
     if (term) {
       params.set("q", term);
-      // GA: Usuário pesquisou
-      // gaEvent("search_performed", { search_term: term });
+      gaEvent("search_performed", { search_term: term });
     } else {
       params.delete("q");
     }
