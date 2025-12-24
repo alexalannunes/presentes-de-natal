@@ -25,7 +25,7 @@ export function ExploreProductsButton() {
             }
           }}
         >
-          Explorar o Catálogo <ArrowLeft className="ml-2 h-5 w-5" />
+          <ArrowLeft className="ml-2 h-5 w-5" /> Explorar o Catálogo
         </Button>
       </Link>
     </div>
