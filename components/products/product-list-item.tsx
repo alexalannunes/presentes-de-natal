@@ -1,13 +1,13 @@
 // components/products/product-list-item.tsx
 "use client";
 
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ShoppingBag } from "lucide-react";
-import { ImageSlider } from "./image-slider";
-import { cn } from "@/lib/utils";
 import { gaEvent } from "@/lib/ga-event";
+import { cn } from "@/lib/utils";
+import { ShoppingBag } from "lucide-react";
+import Link from "next/link";
+import { ImageSlider } from "./image-slider";
 
 // Definindo o tipo Product localmente (ou importando de @/lib/products)
 interface Product {
@@ -103,7 +103,7 @@ export function ProductListItem({ product }: ProductListItemProps) {
               size="sm"
               className="rounded-full w-full shadow-md hover:shadow-lg transition-shadow text-xs h-9"
             >
-              Comprar Agora
+              {product.store}
               <ShoppingBag className="ml-1.5 h-3.5 w-3.5" />
             </Button>
           </Link>

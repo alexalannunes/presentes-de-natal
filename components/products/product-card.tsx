@@ -1,7 +1,6 @@
 // components/products/ProductCard.tsx
 "use client";
 
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -11,9 +10,11 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ShoppingBag } from "lucide-react";
+import Link from "next/link";
 // Importa o novo slider
-import { ImageSlider } from "./image-slider";
 import { gaEvent } from "@/lib/ga-event";
+import { getStoreActionText } from "@/lib/get-store-action-text";
+import { ImageSlider } from "./image-slider";
 
 // Importa o Product Type de um arquivo centralizado (lib/products.ts)
 // Se não existir, você deve usar a interface Product localmente ou criá-lo.
@@ -103,7 +104,7 @@ export function ProductCard({ product }: ProductCardProps) {
           className="w-full"
         >
           <Button className="rounded-full w-full shadow-md hover:shadow-lg transition-shadow">
-            Comprar Agora
+            Ver {getStoreActionText(product.store)}
             <ShoppingBag className="ml-2 h-4 w-4" />
           </Button>
         </Link>
