@@ -13,7 +13,6 @@ import { ShoppingBag } from "lucide-react";
 import Link from "next/link";
 // Importa o novo slider
 import { gaEvent } from "@/lib/ga-event";
-import { getStoreActionText } from "@/lib/get-store-action-text";
 import { ImageSlider } from "./image-slider";
 
 // Importa o Product Type de um arquivo centralizado (lib/products.ts)
@@ -104,7 +103,7 @@ export function ProductCard({ product }: ProductCardProps) {
           className="w-full"
         >
           <Button className="rounded-full w-full shadow-md hover:shadow-lg transition-shadow">
-            Ver {getStoreActionText(product.store)}
+            Ver na Loja
             <ShoppingBag className="ml-2 h-4 w-4" />
           </Button>
         </Link>

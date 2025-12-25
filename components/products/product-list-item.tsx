@@ -103,7 +103,7 @@ export function ProductListItem({ product }: ProductListItemProps) {
               size="sm"
               className="rounded-full w-full shadow-md hover:shadow-lg transition-shadow text-xs h-9"
             >
-              {product.store}
+              Ver na Loja
               <ShoppingBag className="ml-1.5 h-3.5 w-3.5" />
             </Button>
           </Link>
